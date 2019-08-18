@@ -1,17 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter as Router,Redirect, Route, Switch,} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-       
-      </header>
+      <Router>
+        <Switch>
+           <Route exact path="/" component={Navbar}></Route>  
+        </Switch>
+      </Router>
     </div>
   );
-}
-
+  }
 export default App;
