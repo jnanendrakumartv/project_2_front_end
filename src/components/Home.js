@@ -26,7 +26,7 @@ class Home extends Component{
 
             <div className="middle">
                 <div className="row">
-                    <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                     <Carousel autoPlay>
                         <div>
                         <img src={jk} />
@@ -54,14 +54,14 @@ class Home extends Component{
                         </div>
                </Carousel>
                     </div>
-                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4"> 
-                    <div class="microsoft container">
+                    <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3"> 
+                    <div  id="textmarquee" class="microsoft container">
                          <p class="marquee">Windows 8 and Windows RT are focused on your life—your friends and family,
-                          your apps, and your stuff. With new things like the you can spend less time searching and more time doing.</p>
+                          your apps, and your stuff. With new things like the you can spend less time searching and more time doing.</p><br/>
                           <p class="marquee">Windows 8 and Windows RT are focused on your life—your friends and family,
-                          your apps, and your stuff. With new things like the you can spend less time searching and more time doing.</p>
+                          your apps, and your stuff. With new things like the you can spend less time searching and more time doing.</p><br/>
                           <p class="marquee">Windows 8 and Windows RT are focused on your life—your friends and family,
-                          your apps, and your stuff. With new things like the you can spend less time searching and more time doing.</p>
+                          your apps, and your stuff. With new things like the you can spend less time searching and more time doing.</p><br/>
                           <p class="marquee">Learning at PESCE Mandya was essentially building a part of my future life. The focus was on learning and
                                the ambience simple but dignified and respectful. The culture was so open and meaningful, that we had 
                                people practically all over India, studying with us. That by itself was learning, beyond engineering.

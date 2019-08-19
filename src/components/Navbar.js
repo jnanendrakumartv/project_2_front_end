@@ -16,7 +16,7 @@ class Navbar extends Component{
       
     <nav id="element" className="navbar navbar-expand-lg navbar-light bg-dark">
     <a className="navbar-brand ml-0" href="#">
-      <img className="image" src={jk11} alt="jk11" onClick={this.handleSubmit} /> <p  className="institutename">JK INSTITUTE </p> 
+      <img className="image" src={jk11} alt="jk11" onClick={this.handleSubmit} /> <p  className="institutename"><b>JK INSTITUTE </b></p> 
     </a>
 
     <button
