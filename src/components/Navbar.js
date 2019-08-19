@@ -1,15 +1,24 @@
 import React,{Component} from 'react';
 import jk11 from '../images/jk11.png'
 import { Link } from 'react-router-dom';
+import browserHistory from "../Utils/browserHistory"
 import  '../App.css';
 
-
+// handleChange=(e)=>{
+//   this.setState({[e.target.name]:e.target.value});
+// }
+// handleSubmit=(e)=> {
+//   browserHistory.push("/");
+// }
 class Navbar extends Component{
     render() {
-    return (<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    return (
+      
+    <nav id="element" className="navbar navbar-expand-lg navbar-light bg-dark">
     <a className="navbar-brand ml-0" href="#">
-      <img className="image" src={jk11} alt="jk11" /><p  className="institutename">JK INSTITUTE</p>
+      <img className="image" src={jk11} alt="jk11" onClick={this.handleSubmit} /> <p  className="institutename">JK INSTITUTE </p> 
     </a>
+
     <button
       className="navbar-toggler"
       type="button"
@@ -20,61 +29,63 @@ class Navbar extends Component{
       aria-label="Toggle navigation"
     >
       <span>
-        <i className="fas fa-bars" style={{ color: '#2d5696' }} />
+        <i className="fas fa-bars" style={{ color: '#f7faff' }} />
       </span>
     </button>
-
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <div className="collapse navbar-collapse"  id="navbarSupportedContent" >
       <ul className="navbar-nav m-auto">
         <li className="nav-item active">
-          <Link className="nav-link text-white  ml-3" to="/">
-            About Us&nbsp;
+          <Link className="nav-link text-white  ml-3"  to="/about" >
+           <b>About Us</b> &nbsp;
             <i className="fas fa-home" />
             <span className="sr-only">(current)</span>
           </Link>
         </li>
+
         <li className="nav-item">
           <Link
             className="nav-link text-white ml-3"
-            to="/news"
+            to="/achivement"
           >
-            Achievement
+          <p className="over"><b> Achievement</b></p> 
           </Link></li>
           <li className="nav-item">
           <Link
             className="nav-link text-white  ml-3"
-            to="/news"
+            to="/gallary"
           >
-            Photo Gallary
+           <p className="over"><b> Photo Gallary </b></p> 
           </Link></li>
           <li className="nav-item">
           <Link
             className="nav-link text-white  ml-3"
-            to="/news"
+            to="/training"
           >
-            Placement & Training
+
+          <p className="over"><b> Placement & Training </b></p> 
           </Link></li>
           <li className="nav-item">
           <Link
             className="nav-link text-white ml-3"
-            to="/news"
+            to="/contacts"
           >
-            Contact Us
+           <p className="over"><b> Contact Us </b></p> 
           </Link></li>
           <li className="nav-item">
           <Link
             className="nav-link text-white  ml-3"
-            to="/news"
+            to="/contacts"
           >
-            Result
+           <p className="over"><b> Result</b></p>
           </Link>
         </li>
         <li className="nav-item">
           <Link
             className="nav-link text-white ml-3"
-            to="/contacts"
+            to="/result"
           >
-            Facilities
+
+<p className="over"><b> Facilities </b></p>
           </Link>
         </li>
       </ul>
@@ -94,6 +105,7 @@ class Navbar extends Component{
       </form>
     </div>
   </nav>
+
 );
 }
 }

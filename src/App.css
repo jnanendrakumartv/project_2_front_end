@@ -4,15 +4,184 @@
   font-size: 20px solid;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
 }
-.navbar-toggler:focus {
+/* .navbar-toggler:focus {
   outline: none;
 }
 
 .navbar-toggler {
   border: none;
-}
+} */
 .image{
   margin-left: 30px;
   width: 150px;
   height: 40px;
+}
+.collage{
+  width: 100%;
+  height: 100%;
+}
+.twitter:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.facebook:hover{
+  -webkit-transform: rotateZ(-40deg);
+  -ms-transform: rotateZ(-40deg);
+  transform: rotateZ(-40deg);
+}
+.whatsapp:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.skype:hover{
+  box-shadow: inset 0 0 0 25px #53a7ea;
+}
+.email:hover{
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+.linkedein:hover{
+  -webkit-transform: translateX(5px);
+  transform: translateX(5px);
+}
+
+.element {
+  width: 100%;
+  height: 100px;
+  padding: 2% 2% 0% 2%;
+  /* margin: px; */
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  100% {
+      background-color: #FF4136;
+    }
+  100% {
+    background-color: #001F3F;
+  }
+ 50%{
+     background-color: slategrey;
+ }
+  10%{
+      background-color: darkslategray;
+  }
+}
+
+#element {
+  width: 100%;
+  height: 100px;
+  padding: 2% 2% 0% 2%;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  100% {
+      background-color: #FF4136;
+    }
+  100% {
+    background-color: #001F3F;
+  }
+ 50%{
+     background-color: slategrey;
+ }
+  10%{
+      background-color: darkslategray;
+  }
+}
+
+.h6{
+  color: aliceblue;
+}
+.middle{
+  background-color: #53a7ea;
+  /* height: 100%;
+  width: 100%; */
+  background: url(./images/background.jpg);
+}
+.over:hover{
+  -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+color: gold;
+}
+.container {
+  width: 100%;
+  height: 90%;
+  margin: 2%;
+  /* margin: 1em auto; */
+  overflow: hidden;
+  background: white;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.marquee {
+  /* top: 6em; */
+  position: relative;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+  0%   { top:   8em }
+  100% { top: -11em }
+}
+
+/* Make it look pretty */
+.microsoft .marquee {
+margin: 0;
+  padding: 0 1em;
+  line-height: 1.5em;
+  font: 1em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.microsoft:before, .microsoft::before,
+.microsoft:after,  .microsoft::after {
+  left: 0;
+  z-index: 1;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  width: 100%; height: 2em;
+  background-image: linear-gradient(180deg, #FFF, rgba(255,255,255,0));
+}
+
+.microsoft:after, .microsoft::after {
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+.microsoft:before, .microsoft::before {
+  top: 0;
+}
+
+/* Style the links */
+.vanity {
+  color: #333;
+  text-align: center;
+  font: .75em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.vanity a, .microsoft a {
+  color: #1570A6;
+  transition: color .5s;
+  text-decoration: none;
+}
+
+.vanity a:hover, .microsoft a:hover {
+  color: #F65314;
+}
+
+/* Style toggle button */
+.toggle {
+display: block;
+  margin: 2em auto;
 }
