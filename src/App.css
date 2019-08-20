@@ -234,9 +234,40 @@ display: block;
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-#aboutcollage{
-  background-color: #8b8e94;
-  color:#fafcff;
-  font-size: 20px solid;
-  /* height: 500px; */
+#element1 {
+ font-size: 20px;
+ color: yellow;
+  padding: 2%;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  
+  100% {
+    background-color: #001F3F;
+  }
+ 50%{
+     background-color: slategrey;
+ }
+  10%{
+      background-color: darkslategray;
+  }
+}
+/* .center {
+  
+   animation: pulse 5s infinite;
+ }
+ 
+ @keyframes pulse {
+   
+  
+  50%{
+      background-color:skyblue;
+  }
+   10%{
+       background-color: darkslategray;
+   }
+ } */
+.center{
+  background-color: skyblue;
 }
