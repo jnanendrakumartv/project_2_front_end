@@ -186,9 +186,10 @@ display: block;
   margin: 2em auto;
 }
 #textmarquee{
-  background-color: blue;
+  /* background-color:transparent; */
+  background: url(./images/daaa.jpg) no-repeat;
   font-size: 15px;
-  color: gold;
+  color:yellow;
   width: 100%;
 }
 
@@ -253,28 +254,14 @@ display: block;
       background-color: darkslategray;
   }
 }
-/* .center {
-  
-   animation: pulse 5s infinite;
- }
- 
- @keyframes pulse {
-   
-  
-  50%{
-      background-color:skyblue;
-  }
-   10%{
-       background-color: darkslategray;
-   }
- } */
+
 .center{
   background-color: skyblue;
 }
 .element1 {
   width: 100%;
-  height: 210px;
-  padding: 2% 0% 0% 2%;
+  height: 170px;
+  padding: 1% 0% 0% 5%;
   /* margin: px; */
   animation: pulse 5s infinite;
 }

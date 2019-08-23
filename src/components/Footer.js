@@ -10,7 +10,7 @@ class Footer extends Component{
 <div className="footer"><div className="element1">
                 <div className="row">
                 <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                     <span id="text" >EXPLOR</span>
+                     <span id="text" ><b>EXPLOR</b></span>
                     <Link  to="/about" ><p id="text">About Us</p></Link>
                     <Link  to="/achievement" ><p id="text"> Achievement</p></Link>
                     <Link  to="/gallary" ><p id="text"> PhotoGallary</p></Link>
@@ -19,12 +19,12 @@ class Footer extends Component{
                 </div>                    
                 <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div className="imp">
-                    <span id="text" >Important Links</span>
+                    <span id="text" ><b>Important Links</b></span>
                     <Link  ><p id="text">Anti Ragging Commitee</p></Link>
                     <Link   ><p id="text"> Women Sexual Harasment Committee</p></Link>
                     <Link  ><p id="text"> Anti caste Discrimination Commettee</p></Link>
                     <Link   ><p id="text">Grievance Redressal Committee</p></Link>
-                    <h6 className="h6"><b>© 2019 JK Institution, All Rights Reserved.</b></h6></div>
+                    </div>
                 </div>                           
                     <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div className="icon">  <SocialIcon className="twitter" url="https://twitter.com/" />
@@ -35,6 +35,7 @@ class Footer extends Component{
                     <SocialIcon className="linkedin"  url="http://linkedin.com/" /><br/>
                       <div id="email"><p>Email : principal@jkinst.ac.in</p>
                          <p>Website : www.jkinst.ac.in</p></div>
+                         <h6 className="h6"><b>© 2019 JK Institution, All Rights Reserved.</b></h6>
                      </div>                           
                 </div>
             </div>

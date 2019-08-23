@@ -45,22 +45,22 @@ class Home extends Component{
                             <tr>
                             <td><p id="color"><b>Companies Associated</b></p>
                             <marquee >
-                            <table eidth="100%" border="0" cellpadding="0" cellspacing="0">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
                             <tbody>
                             <tr>
                             <td class="companyscroll">
-                            <img src={aqu} width="165" height="117" alt="aqu" />
-                            <img src={cat} width="165" height="117" alt="cat" />
-                            <img src={hun} width="165" height="117" alt="hun" />
-                            <img src={gadre} width="165" height="117" alt="gadre" />
-                            <img src={intel} width="165" height="117" alt="intel" />
-                            <img src={it} width="165" height="117" alt="it" />
-                            <img src={mph} width="165" height="117" alt="mph" />
-                            <img src={rsn} width="165" height="117" alt="rsn" />
-                            <img src={sagoni} width="165" height="117" alt="sagoni" />
-                            <img src={sky} width="165" height="117" alt="sky" />
-                            <img src={sprink} width="165" height="117" alt="sprink" />
-                            <img src={tech} width="165" height="117" alt="tech" />
+                            <img src={aqu} width="165" height="100" alt="aqu" />
+                            <img src={cat} width="165" height="100" alt="cat" />
+                            <img src={hun} width="165" height="100" alt="hun" />
+                            <img src={gadre} width="165" height="100" alt="gadre" />
+                            <img src={intel} width="165" height="100" alt="intel" />
+                            <img src={it} width="165" height="100" alt="it" />
+                            <img src={mph} width="165" height="100" alt="mph" />
+                            <img src={rsn} width="165" height="100" alt="rsn" />
+                            <img src={sagoni} width="165" height="100" alt="sagoni" />
+                            <img src={sky} width="165" height="100" alt="sky" />
+                            <img src={sprink} width="165" height="100" alt="sprink" />
+                            <img src={tech} width="165" height="100" alt="tech" />
                             </td>
                             </tr>
                             </tbody>
@@ -76,7 +76,7 @@ class Home extends Component{
                 </div>
                 <div className="row">
                     <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-                    <Carousel autoPlay>
+                     <Carousel autoPlay>
                         <div>
                         <img src={jk} />
                         </div>
@@ -101,7 +101,7 @@ class Home extends Component{
                         <div>
                         <img src={f} />
                         </div>
-               </Carousel>
+               </Carousel> 
                     </div>
                     <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3"> 
                     <div  id="textmarquee" class="microsoft container">
