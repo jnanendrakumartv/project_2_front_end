@@ -18,9 +18,9 @@ class About extends Component {
     render() {
       return (
           <div className="body">
-              <div className="header">
-                 <Navbar/>
-              </div>
+              <div className="row">
+              <Navbar/>
+      </div>
        <div className="row">
              <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
           <div className="center"> 
@@ -104,16 +104,16 @@ class About extends Component {
           </div>
               <div id="element1" className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                         <p > Sri K.S Puttannaiah, fondly called as KSP, 
-                        former minister of education and well known as "Raitha Nayaka" founded 
-                        and registered J.K Institution currently known as JK Institute(R) in 1958.</p>
-                        <p>1) JK College of Science, Arts & Commerce, Pandavapura	<br/> 
-                          2)   JK Law College,Pandavapura<br/> 
-                          3)JK College of Education, Pandavapura<br/> 
-                          4)	    JK Evening College, Pandavapura<br/> 
-                          5) JK PU College, Pandavapura	 <br/> 
-                          6)   JK High School, Pandavapura<br/> 
-                          7) JK Post Graduate Center for Education and Research [M.Ed], Pandavapura	 <br/>  
-                          8) Krishik Sarvodaya Foundation JK Competitive Exam Training Center, Pandavapura</p> 
+                            former minister of education and well known as "Raitha Nayaka" founded 
+                            and registered J.K Institution currently known as JK Institute(R) in 1958.<br/>
+                            1)JK College of Science, Arts & Commerce Pandavapura	<br/> 
+                            2)JK Law College,Pandavapura<br/> 
+                            3)JK College of Education, Pandavapura<br/> 
+                            4)JK Evening College, Pandavapura<br/> 
+                            5)JK PU College, Pandavapura	 <br/> 
+                            6)JK High School, Pandavapura<br/> 
+                            7)JK Post Graduate Center for Education and Research [M.Ed], Pandavapura	 <br/>  
+                            8)JK Krishik Sarvodaya Foundation JK Competitive Exam Training Center, Pandavapura</p> 
                 </div>
           </div>      
               <div className="footer">

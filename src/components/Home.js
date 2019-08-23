@@ -9,6 +9,18 @@ import c from '../images/c.JPG'
 import d from '../images/d.jpg'
 import e from '../images/e.jpg'
 import f from '../images/f.jpg'
+import aqu from '../images/aqu.png'
+import cat from '../images/cat.png'
+import hun from '../images/hun.png'
+import gadre from '../images/gadre.png'
+import intel from '../images/intel.png'
+import it from '../images/it.png'
+import mph from '../images/mph.png'
+import rsn from '../images/rsn.png'
+import sagoni from '../images/sagoni.png'
+import sky from '../images/sky.png'
+import sprink from '../images/sprink.png'
+import tech from '../images/tech.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import Marquee from 'react-upward-marquee';
 import { Carousel } from 'react-responsive-carousel';
@@ -25,6 +37,43 @@ class Home extends Component{
             </div>
 
             <div className="middle">
+                <div className="imageslider">
+                    <div className="row">
+                    <div className="col-xs-12 col-sm12 col-md-12 col-lg-12">
+                     <table width="100%" border="0/" cellpadding="0">
+                            <tbody>
+                            <tr>
+                            <td><p id="color"><b>Companies Associated</b></p>
+                            <marquee >
+                            <table eidth="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                            <tr>
+                            <td class="companyscroll">
+                            <img src={aqu} width="165" height="117" alt="aqu" />
+                            <img src={cat} width="165" height="117" alt="cat" />
+                            <img src={hun} width="165" height="117" alt="hun" />
+                            <img src={gadre} width="165" height="117" alt="gadre" />
+                            <img src={intel} width="165" height="117" alt="intel" />
+                            <img src={it} width="165" height="117" alt="it" />
+                            <img src={mph} width="165" height="117" alt="mph" />
+                            <img src={rsn} width="165" height="117" alt="rsn" />
+                            <img src={sagoni} width="165" height="117" alt="sagoni" />
+                            <img src={sky} width="165" height="117" alt="sky" />
+                            <img src={sprink} width="165" height="117" alt="sprink" />
+                            <img src={tech} width="165" height="117" alt="tech" />
+                            </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                            </marquee>
+                            </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                    </div>
+                    </div>
+
+                </div>
                 <div className="row">
                     <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                     <Carousel autoPlay>

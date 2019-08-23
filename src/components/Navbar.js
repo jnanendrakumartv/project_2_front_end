@@ -4,20 +4,22 @@ import { Link } from 'react-router-dom';
 import browserHistory from "../Utils/browserHistory"
 import  '../App.css';
 
-// handleChange=(e)=>{
-//   this.setState({[e.target.name]:e.target.value});
-// }
-// handleSubmit=(e)=> {
-//   browserHistory.push("/");
-// }
+
 class Navbar extends Component{
+      handleChange=(e)=>{
+        this.setState({[e.target.name]:e.target.value});
+      }
+      handleSubmit1=(e)=> {
+        browserHistory.push("/");
+      }  
+
     render() {
     return (
       
     <nav id="element" className="navbar navbar-expand-lg navbar-light bg-dark">
-    <a className="navbar-brand ml-0" href="#">
-      <img className="image" src={jk11} alt="jk11" onClick={this.handleSubmit} /> <p  className="institutename"><b>JK INSTITUTE </b></p> 
-    </a>
+     <a className="navbar-brand ml-0" href="#">
+      <img className="image" src={jk11} alt="jk11" onClick={this.handleSubmit1} /> <p  className="institutename"><b>JK INSTITUTE </b></p> 
+     </a>
 
     <button
       className="navbar-toggler"
@@ -45,7 +47,7 @@ class Navbar extends Component{
         <li className="nav-item">
           <Link
             className="nav-link text-white ml-3"
-            to="/achivement"
+            to="/achievement"
           >
           <p className="over"><b> Achievement</b></p> 
           </Link></li>
@@ -61,7 +63,6 @@ class Navbar extends Component{
             className="nav-link text-white  ml-3"
             to="/training"
           >
-
           <p className="over"><b> Placement & Training </b></p> 
           </Link></li>
           <li className="nav-item">
@@ -85,7 +86,7 @@ class Navbar extends Component{
             to="/result"
           >
 
-<p className="over"><b> Facilities </b></p>
+  <p className="over"><b> Facilities </b></p>
           </Link>
         </li>
       </ul>
