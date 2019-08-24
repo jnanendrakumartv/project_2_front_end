@@ -54,7 +54,7 @@ class Navbar extends Component{
           <li className="nav-item">
           <Link
             className="nav-link text-white  ml-3"
-            to="/gallary"
+            to="/photos"
           >
            <p className="over"><b> Photo Gallary </b></p> 
           </Link></li>

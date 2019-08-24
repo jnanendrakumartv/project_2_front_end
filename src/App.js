@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Contacts from './components/Contacts';
 import About from './components/About';
 import Achievement from './components/Achievement';
+import Photos from './components/Photos';
 import NotFoundPage from './components/NotFoundPage';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
            <Route exact path="/contacts" component={Contacts}></Route> 
            <Route exact path="/about" component={About}></Route> 
            <Route exact path="/achievement" component={Achievement}></Route> 
+           <Route exact path="/photos" component={Photos}></Route> 
            <Route component={NotFoundPage} />
         </Switch>
       </Router>
