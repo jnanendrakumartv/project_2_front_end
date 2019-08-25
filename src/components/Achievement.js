@@ -32,9 +32,9 @@ class Achievement extends Component {
                     </td>
                   </tr> </marquee >
                   </table>
-                        <CardBody className="cardbody">
+                        <CardBody className="cardbody" />
                         <CardText className='designation'><b>VTU Toppers</b> </CardText>
-                        </CardBody>                 
+                                       
                  </Card>
                 </div>
                 <div id="sports" className="col-xs-6 col-6g-6 col-6g-6 col-lg-6">
