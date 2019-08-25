@@ -192,7 +192,9 @@ display: block;
   color:black;
   width: 100%;
 }
-
+.achivements{
+  background: url(./images/background.jpg);
+}
 .card {
   box-shadow: 2px 2px 5px rgb(243, 148, 192);
 }

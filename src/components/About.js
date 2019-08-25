@@ -10,7 +10,7 @@ import punith from '../images/punith.jpg';
 import katrina from '../images/katrina.jpg';
 import hrithik from '../images/hrithik.jpg';
 import  '../App.css';
-import { Card, CardImg, CardText, CardBody,CardTitle,Button } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody,CardTitle } from 'reactstrap';
 
 
 

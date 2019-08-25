@@ -14,7 +14,7 @@ class Photos extends Component {
               </div>
               
               <div>
-<h2>,mcsd,kbcs,kdbcs</h2>
+<h2></h2>
 
               </div>
 
