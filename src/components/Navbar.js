@@ -61,7 +61,7 @@ class Navbar extends Component{
           <li className="nav-item">
           <Link
             className="nav-link text-white  ml-3"
-            to="/training"
+            to="/placement"
           >
           <p className="over"><b> Placement & Training </b></p> 
           </Link></li>
@@ -75,7 +75,7 @@ class Navbar extends Component{
           <li className="nav-item">
           <Link
             className="nav-link text-white  ml-3"
-            to="/contacts"
+            to="/results"
           >
            <p className="over"><b> Result</b></p>
           </Link>
@@ -83,7 +83,7 @@ class Navbar extends Component{
         <li className="nav-item">
           <Link
             className="nav-link text-white ml-3"
-            to="/result"
+            to="/facilities"
           >
 
   <p className="over"><b> Facilities </b></p>
