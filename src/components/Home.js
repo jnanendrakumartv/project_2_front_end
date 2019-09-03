@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import Navbar from './Navbar';
+import Nav1 from './Nav1';
 import Footer from './Footer';
 import s5 from '../images/s5.jpg'; import s1 from '../images/s1.jpg'; import s3 from '../images/s3.jpg';
 import jk from '../images/jk.jpg'; import s4 from '../images/s4.jpg'; import s7 from '../images/s7.jpg';
@@ -21,7 +21,7 @@ class Home extends Component{
     return (
         <div className="body">
             <div className="header">
-          <Navbar/>
+          <Nav1/>
             </div>
 
             <div className="middle">
@@ -60,23 +60,22 @@ class Home extends Component{
                             </table>
                     </div>
                     </div>
-
                 </div>
                 <div className="row">
                     <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                      <Carousel autoPlay>
                      <div> <img src={s5} /> </div>
-                    <div> <img src={s7} /> </div><div> <img src={s4} /> </div>
-                    <div><img src={jk} /></div>
-                    <div> <img src={s3} /> </div>
-                    <div> <img src={s1} /> </div>
-                    <div><img src={jj} /></div>         
-                    <div> <img src={a} /></div>
-                    <div> <img src={b} /></div>
-                    <div><img src={c} /></div>
-                    <div><img src={d} /> </div>                   
-                    <div><img src={e} /> </div>                   
-                    <div><img src={f} /></div> 
+                     <div> <img src={s7} /> </div><div> <img src={s4} /> </div>
+                     <div> <img src={jk} /> </div>
+                     <div> <img src={s3} /> </div>
+                     <div> <img src={s1} /> </div>
+                     <div> <img src={jj} /> </div>         
+                     <div> <img src={a} /> </div>
+                     <div> <img src={b} /> </div>
+                     <div> <img src={c} /> </div>
+                     <div> <img src={d} /> </div>                   
+                     <div> <img src={e} /> </div>                   
+                     <div> <img src={f} /> </div> 
                </Carousel> 
                     </div>
                     <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3"> 
@@ -98,8 +97,6 @@ class Home extends Component{
                     </div> 
                 </div>
             </div>         
-
-
 <div className="footer">
 <Footer/>
 </div> 
